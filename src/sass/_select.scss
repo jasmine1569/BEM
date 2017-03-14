@@ -1,0 +1,14 @@
+.select{
+	margin: 30px;
+	width: 100%;
+}
+
+.select__field{
+	width: 300px;
+	height: 50px;
+	border: solid 1px;
+	border-radius: 0px;
+	border-color: $grey-cool;
+	padding: 10px;
+ -webkit-appearance:none;
+}

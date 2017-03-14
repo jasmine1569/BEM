@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600");
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #767679;
+  letter-spacing: 1px;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #767679;
+  font-size: 1.1125em;
+  line-height: 35px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  /* #### iPhone 6 and iPhone 4+ and Nexus 5X and GalaxyS5 Portrait #### */
+  /* #### iPhone 6 and iPhone 4+ and Nexus 5X and GalaxyS5 Portrait or Landscape, Nexus 6P Landscape #### */
+  /* #### iPhone 5 Portrait #### */
+  /* #### iPhone 5 Landscape #### */
+  /* #### iPhone 6 plus Portrait and Nexus 6P Portrait #### */
+  /* #### iPhone 6 plus Landscape and Nexus 6P Portrait #### */
+  /* #### Tablets Portrait #### */
+}
+
+@media screen and (min-device-width: 320px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  p {
+    /* some CSS here */
+    line-height: 60px;
+  }
+}
+
+@media screen and (min-device-width: 320px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  p {
+    /* some CSS here */
+    line-height: 40px;
+  }
+}
+
+@media (device-height: 568px) and (device-width: 320px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  p {
+    /* some CSS here */
+    line-height: 55px;
+  }
+}
+
+@media (device-height: 568px) and (device-width: 320px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  p {
+    /* some CSS here */
+    line-height: 45px;
+  }
+}
+
+@media (min-device-height: 667px) and (min-device-width: 375px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+  p {
+    /* some CSS here */
+    line-height: 60px;
+  }
+}
+
+@media (min-device-height: 667px) and (min-device-width: 375px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
+  p {
+    /* some CSS here */
+    line-height: 40px;
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  p {
+    /* some CSS here */
+    line-height: 35px;
+  }
+}
+
+a {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 5em;
+  line-height: 96px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 4.0625em;
+  line-height: 77px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 3.3125em;
+  line-height: 66px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 2.875em;
+  line-height: 53px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 2.5em;
+  line-height: 48px;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 2.0625em;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.nav {
+  background-color: #245e90;
+}
+
+.nav__list {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.nav__link {
+  display: block;
+  text-decoration: none;
+  padding: 1.5rem;
+  color: #fff;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.nav__link:hover {
+  background-color: #1E90FF;
+}
+
+.nav__col {
+  width: 33.333%;
+  float: left;
+  padding: 2.5rem 1.5rem;
+}
+
+@media (min-width: 30em) and (max-width: 40em) {
+  .nav__trigger {
+    width: 15%;
+  }
+}
+
+@media (max-width: 30em) {
+  .nav__trigger {
+    width: 15%;
+  }
+}
+
+@media (max-width: 30em) {
+  .nav__link {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 40em) and (max-width: 50em) {
+  .nav__col {
+    width: 100%;
+  }
+}
+
+@media (min-width: 30em) and (max-width: 40em) {
+  .nav__col {
+    width: 100%;
+  }
+}
+
+@media (max-width: 30em) {
+  .nav__col {
+    width: 100%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.select {
+  margin: 30px;
+  width: 100%;
+}
+
+.select__field {
+  width: 300px;
+  height: 50px;
+  border: solid 1px;
+  border-radius: 0px;
+  border-color: #767679;
+  padding: 10px;
+  -webkit-appearance: none;
+}
+
+.button {
+  margin: 20px;
+}
+
+.btn {
+  background-color: #767679;
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  font-size: 1em;
+  width: 200px;
+  height: 70px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.btn--submit {
+  background-color: #eba900;
+}
+
+.btn--compare {
+  background-color: #881c40;
+}
+
+.btn--watch {
+  background-color: #cc0b2a;
+}
+
+.btn__start {
+  background-color: #fff;
+  color: #245e90;
+}
+
+.btn__start--blue {
+  border-color: #245e90;
+  border: solid;
+  color: #245e90;
+  background-color: #fff;
+}
+
+body {
+  background-color: #F4F4F4;
+}
+
+.wrapper {
+  width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=app.css.map */

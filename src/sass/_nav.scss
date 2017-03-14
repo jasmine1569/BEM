@@ -1,0 +1,85 @@
+.nav{
+	background-color: $blue;
+
+	@at-root #{&}__list{
+		display: inline-block;
+		vertical-align: bottom;
+	}
+
+	@at-root #{&}__link{
+		display: block;
+		text-decoration: none;
+		padding: 1.5rem;
+		color: #fff;
+		-webkit-transition: .3s;
+		transition: .3s;
+
+		@at-root #{&}:hover{
+			background-color: $doger-blue;
+		}
+
+		// @at-root #{&}:active{
+		// 	background-color: $teal;
+		// 	display: block;
+		// }
+	}
+
+	@at-root #{&}__col{
+		width: 33.333%;
+		float: left;
+		padding: 2.5rem 1.5rem;
+	}
+
+}
+
+@media (min-width: 30em) and (max-width: 40em) {
+	.nav__trigger{
+		width: 15%;
+	}
+}
+
+@media (max-width: 30em) {
+	.nav__trigger{
+		width: 15%;
+	}
+}
+
+@media (max-width: 30em) {
+	.nav__link{
+		padding: 10px;
+	}
+}
+
+@media (min-width: 40em) and (max-width: 50em) {
+	.nav__col{
+		width: 100%;
+	}
+}
+
+@media (min-width: 30em) and (max-width: 40em) {
+	.nav__col{
+		width: 100%;
+	}
+}
+
+@media (max-width: 30em) {
+	.nav__col{
+		width: 100%;
+	}
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+// .fa-info{
+// 	background-color: red;
+// }
+
+
+
+
+
+

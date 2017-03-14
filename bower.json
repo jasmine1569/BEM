@@ -1,0 +1,17 @@
+{
+  "name": "BEM",
+  "version": "0.0.1",
+  "description": "learning about BEM",
+  "keywords": [
+    "ui kit"
+  ],
+  "main": [
+    "src/js/app.js",
+    "src/sass/app.scss"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bxslider-4": "^4.2.5",
+    "jquery": "^3.1.1"
+  }
+}

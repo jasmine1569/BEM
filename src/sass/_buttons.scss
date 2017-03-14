@@ -1,0 +1,70 @@
+.button{
+	margin: 20px;
+}
+
+.btn{
+	background-color: $grey-cool;
+	border: none;
+	border-radius: 50px;
+	text-decoration: none;
+	padding: 10px;
+	color: #fff;
+	font-size: 1em;
+	width: 200px;
+	height: 70px;
+	margin-top: 10px;
+	margin-left: 10px;
+
+	@at-root #{&}--submit{
+		background-color: $yellow;
+	}
+
+	@at-root #{&}--compare{
+		background-color: $magenta;
+	}
+
+	@at-root #{&}--watch{
+		background-color: $red;
+	}
+
+	@at-root #{&}__start{
+		background-color: #fff;
+		color: $blue;
+
+		@at-root #{&}--blue{
+			border-color: $blue;
+			border: solid;
+			color: $blue;
+			background-color: #fff;
+		}
+	}
+}
+
+// .btn--submit{
+// 	background-color: $yellow;
+// }
+
+// .btn--compare{
+// 	background-color: $magenta;
+// }
+
+// .btn__start{
+// 	background-color: #fff;
+// 	color: $blue;
+// }
+
+// .btn__start--blue{
+// 	border-color: $blue;
+// 	border: solid;
+// 	color: $blue;
+// 	background-color: #fff;
+// }
+
+// // .btn--white{
+// // 	color: $blue;
+// // 	background-color: #fff;
+// // }
+
+// .btn--watch{
+// 	background-color: $red;
+// }

@@ -1,0 +1,11 @@
+{
+  "name": "rop-type",
+  "version": "0.0.1",
+  "description": "rop-type and modal",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^6.0.0-10",
+    "laravel-elixir-browserify": "^0.8.1",
+    "laravel-elixir-vueify": "^2.0.0"
+  }
+}

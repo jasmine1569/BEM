@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600');
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: $grey-cool;
+	letter-spacing: 1px;
+}
+
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: $grey-cool;
+	font-size: 1.1125em;
+	line-height: 35px;
+	font-weight: 300;
+	letter-spacing: 1px;
+
+	/* #### iPhone 6 and iPhone 4+ and Nexus 5X and GalaxyS5 Portrait #### */
+	@media screen and (min-device-width: 320px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2){
+	  /* some CSS here */
+	  line-height: 60px;
+	}
+
+	/* #### iPhone 6 and iPhone 4+ and Nexus 5X and GalaxyS5 Portrait or Landscape, Nexus 6P Landscape #### */
+	@media screen and (min-device-width: 320px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio: 2){
+	  /* some CSS here */
+	  line-height: 40px;
+	}
+
+	/* #### iPhone 5 Portrait #### */
+	@media (device-height: 568px) and (device-width: 320px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2){
+	  /* some CSS here */
+	  line-height: 55px;
+	}
+
+	 /* #### iPhone 5 Landscape #### */
+	@media (device-height: 568px) and (device-width: 320px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio: 2){
+	  /* some CSS here */
+	  line-height: 45px;
+	}
+
+	/* #### iPhone 6 plus Portrait and Nexus 6P Portrait #### */
+	@media (min-device-height: 667px) and (min-device-width: 375px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 3){
+	  /* some CSS here */
+	  line-height: 60px;
+	}
+
+	/* #### iPhone 6 plus Landscape and Nexus 6P Portrait #### */
+	@media (min-device-height: 667px) and (min-device-width: 375px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio: 3){
+	  /* some CSS here */
+	  line-height: 40px;
+	}
+
+	/* #### Tablets Portrait #### */
+	@media screen and (min-device-width: 768px) and (max-device-width: 1023px){
+	  /* some CSS here */
+	  line-height: 35px;
+	}
+}
+
+a{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+h1{
+	font-size: 5em;
+	line-height: 96px;
+	font-weight: 400;
+}
+
+h2{
+	font-size: 4.0625em;
+	line-height: 77px;
+	font-weight: 400;
+}
+
+h3{
+	font-size: 3.3125em;
+	line-height: 66px;
+	font-weight: 400;
+}
+
+h4{
+	font-size: 2.875em;
+	line-height: 53px;
+	font-weight: 400;
+}
+
+h5{
+	font-size: 2.5em;
+	line-height: 48px;
+	font-weight: 400;
+}
+
+
+h6{
+	font-size: 2.0625em;
+	line-height: 40px;
+	font-weight: 400;
+}
